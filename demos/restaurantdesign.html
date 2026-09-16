@@ -1,1 +1,59 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Maison Table — WebForge Demo</title><link rel="stylesheet" href="/demos/demo.css"></head><body><div class="wrap"><div class="nav"><a class="brand" href="/"><b>֎</b> WEBFORGE</a><a class="back" href="/">← Back to WebForge</a></div><main class="hero"><div class="content"><div class="tag">RESTAURANT WEBSITE · DEMO</div><h1>An evening worth remembering.</h1><p>A refined dining experience with a beautiful digital menu, location details and direct reservations.</p><a class="btn" href="https://wa.me/2349123429926?text=Hello%20WebForge%2C%20I%20want%20a%20Dining%20website.">View Menu ↗</a></div></main><section class="cards"><div class="card"><b>01</b><h3>Premium layout</h3><p>Designed to establish trust from the first screen.</p></div><div class="card"><b>02</b><h3>Mobile first</h3><p>Built for the phones your customers actually use.</p></div><div class="card"><b>03</b><h3>Easy contact</h3><p>Clear calls-to-action make it simple to start a conversation.</p></div></section></div></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="An editorial dining website built around atmosphere, menus, reservations and the story behind the kitchen.">
+<title>Maison Table — Dining</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<style>:root{--accent:#e7a85b;--accent2:#f5d7a5;--bg:#100c08;--panel:#17110b;--ink:#fff9ee;--muted:#b5a897;}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;overflow-x:hidden}
+a{text-decoration:none;color:inherit}.page{min-height:100vh;position:relative}.page:before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 75% 5%,color-mix(in srgb,var(--accent) 18%,transparent),transparent 30%),linear-gradient(90deg,transparent 49.8%,rgba(255,255,255,.035) 50%,transparent 50.2%);opacity:.8}
+.nav{height:82px;max-width:1280px;margin:auto;padding:0 5%;display:flex;align-items:center;justify-content:space-between;position:relative;z-index:5;border-bottom:1px solid rgba(255,255,255,.09)}.brand{font-weight:800;letter-spacing:1.5px}.brand b{font-size:28px;margin-right:8px}.back{color:var(--muted);font-size:13px}.back:hover{color:var(--ink)}
+.hero{max-width:1280px;margin:auto;min-height:720px;padding:80px 5%;display:grid;grid-template-columns:1.15fr .85fr;gap:60px;align-items:center;position:relative;z-index:1}.tag{font-size:10px;letter-spacing:3px;color:var(--accent);font-weight:800}.hero h1{font-family:Georgia,serif;font-size:clamp(52px,7vw,92px);line-height:.96;letter-spacing:-4px;max-width:900px;margin:20px 0}.business .hero h1,.school .hero h1,.tech .hero h1{font-family:Inter,system-ui,sans-serif;font-weight:800}.creator .hero h1{font-style:italic}.event .hero h1{font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;text-transform:uppercase;letter-spacing:-1px}.fitness .hero h1{font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;text-transform:uppercase}.beauty .hero h1{font-family:Georgia,serif;font-style:italic;font-weight:400}.hero p{font-size:18px;line-height:1.8;color:var(--muted);max-width:650px}.cta{display:inline-flex;margin-top:25px;padding:15px 21px;border-radius:999px;background:var(--ink);color:var(--bg);font-weight:800;transition:.2s}.cta:hover{transform:translateY(-3px);box-shadow:0 15px 45px color-mix(in srgb,var(--accent) 22%,transparent)}
+.visual{min-height:500px;border:1px solid rgba(255,255,255,.1);border-radius:28px;position:relative;overflow:hidden;background:linear-gradient(145deg,var(--panel),var(--bg));box-shadow:0 40px 120px #0009}.visual .shape{position:absolute;border-radius:50%;width:330px;height:330px;right:-70px;top:-70px;background:radial-gradient(circle,var(--accent),transparent 67%);opacity:.35}.visual .shape2{position:absolute;width:170px;height:170px;left:12%;bottom:12%;border:1px solid color-mix(in srgb,var(--accent) 65%,transparent);transform:rotate(20deg)}.visual .mini{position:absolute;left:28px;right:28px;bottom:28px;padding:23px;border:1px solid rgba(255,255,255,.1);background:#0007;backdrop-filter:blur(14px);border-radius:18px}.mini span{font-size:10px;letter-spacing:2px;color:var(--accent)}.mini h3{font-size:27px;margin:9px 0 4px}.mini p{font-size:13px;margin:0;color:var(--muted)}
+.stats{max-width:1280px;margin:auto;padding:0 5% 80px;display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.08);position:relative;z-index:1}.stat{background:var(--bg);padding:28px}.stat b{font-size:31px;color:var(--accent)}.stat span{display:block;color:var(--muted);font-size:13px;margin-top:4px}
+.features{max-width:1280px;margin:auto;padding:90px 5%;position:relative;z-index:1}.featuresHead{display:flex;justify-content:space-between;gap:25px;align-items:end;margin-bottom:35px}.featuresHead h2{font-size:48px;letter-spacing:-2px;margin:0}.featuresHead p{max-width:430px;color:var(--muted);line-height:1.7}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{min-height:250px;padding:30px;border:1px solid rgba(255,255,255,.1);background:var(--panel);border-radius:22px;transition:.25s}.card:hover{transform:translateY(-6px);border-color:color-mix(in srgb,var(--accent) 55%,transparent)}.card b{color:var(--accent);font-size:12px;letter-spacing:2px}.card h3{font-size:24px;margin:55px 0 10px}.card p{color:var(--muted);line-height:1.7;margin:0}
+.footerCta{max-width:1280px;margin:60px auto 0;padding:90px 5%;border-top:1px solid rgba(255,255,255,.1);text-align:center;position:relative;z-index:1}.footerCta h2{font-family:Georgia,serif;font-size:clamp(40px,6vw,72px);margin:0 0 14px}.footerCta p{color:var(--muted)}.footerCta small{display:block;color:#687485;margin-top:45px}
+@media(max-width:850px){.hero{grid-template-columns:1fr;padding-top:60px}.visual{min-height:400px}.cards{grid-template-columns:1fr}.stats{grid-template-columns:1fr}.featuresHead{display:block}.featuresHead p{margin-top:18px}.featuresHead h2{font-size:40px}}
+@media(max-width:600px){.nav{height:68px}.hero h1{font-size:52px;letter-spacing:-2px}.hero{min-height:auto;padding-bottom:70px}.visual{min-height:360px}.features,.footerCta{padding-top:65px;padding-bottom:65px}}
+</style>
+</head>
+<body class="restaurant">
+<div class="page">
+<header class="nav">
+<a class="brand" href="/"><b>֎</b> WEBFORGE</a>
+<a class="back" href="/">← Back to WebForge</a>
+</header>
+<main>
+<section class="hero">
+<div>
+<div class="tag">MAISON TABLE · RESTAURANT</div>
+<h1>Slow evenings. Beautiful plates. Lasting memories.</h1>
+<p>An editorial dining website built around atmosphere, menus, reservations and the story behind the kitchen.</p>
+<a class="cta" href="https://wa.me/2349123429926?text=Hello%20WebForge%2C%20I%20want%20a%20Restaurant%20website.">Reserve a Table ↗</a>
+</div>
+<div class="visual">
+<div class="shape"></div><div class="shape2"></div>
+<div class="mini"><span>WEB EXPERIENCE</span><h3>Designed for attention.</h3><p>Every section has a job: attract, explain, build trust and create action.</p></div>
+</div>
+</section>
+<section class="stats">
+<div class="stat"><b>01</b><span>Distinct visual direction</span></div>
+<div class="stat"><b>02</b><span>Mobile-first experience</span></div>
+<div class="stat"><b>03</b><span>Clear conversion path</span></div>
+</section>
+<section class="features">
+<div class="featuresHead"><h2>Built around the way <em>your industry</em> works.</h2><p>This is a concept demo. A real client project can be tailored to your exact brand, content, audience and goals.</p></div>
+<div class="cards"><article class="card"><b>01</b><h3>Tonight's menu</h3><p>A visual menu that makes every course feel like part of the experience.</p></article><article class="card"><b>02</b><h3>The kitchen</h3><p>Chef stories, ingredients and the philosophy behind every plate.</p></article><article class="card"><b>03</b><h3>Find us</h3><p>Hours, location and reservation details exactly where hungry guests expect them.</p></article></div>
+</section>
+<section class="footerCta">
+<h2>Ready for a website that feels like your brand?</h2>
+<p>Tell WebForge what you want to build and start the conversation on WhatsApp.</p>
+<a class="cta" href="https://wa.me/2349123429926?text=Hello%20WebForge%2C%20I%20want%20to%20start%20a%20project.">Start a Project ↗</a>
+<small>֎ WEBFORGE · Premium websites by XADONITE · 2026</small>
+</section>
+</main>
+</div>
+</body>
+</html>
