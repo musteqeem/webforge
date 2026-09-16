@@ -37,6 +37,18 @@
     {
       "source": "/techdesign",
       "destination": "/demos/techdesign.html"
+    },
+    {
+      "source": "/healthcaredesign",
+      "destination": "/demos/healthcaredesign.html"
+    },
+    {
+      "source": "/travel",
+      "destination": "/demos/travel.html"
+    },
+    {
+      "source": "/financedesign",
+      "destination": "/demos/financedesign.html"
     }
   ]
 }
