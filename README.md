@@ -1,77 +1,36 @@
-# ֎ WebForge — Premium Business Website Portfolio
+# ֎ WebForge — Premium Web Design Studio
 
-> **Premium websites for businesses that want to look credible, modern and memorable.**
+A conversion-focused portfolio/showcase website for **XADONITE Web Studio**.
 
-WebForge is a polished static HTML/CSS/JavaScript sales portfolio created to showcase professional website directions to potential clients.
+## Live demo routes
 
-## ✦ Demo Routes
+- `/businessdesign` — corporate / consulting
+- `/schooldesign` — education / admissions
+- `/restaurantdesign` — restaurant / dining
+- `/creatordesign` — creator / portfolio
+- `/eventdesign` — event / conference
+- `/beautydesign` — beauty / luxury
+- `/realestatedesign` — real estate
+- `/fitnessdesign` — fitness / coaching
+- `/techdesign` — SaaS / technology
 
-After deploying to Vercel:
+Each route is a separate visual direction rather than the same template with different copy.
 
-- `/` — Main WebForge studio
-- `/schooldesign` — School demo
-- `/restaurantdesign` — Restaurant demo
-- `/businessdesign` — Business/corporate demo
-- `/creatordesign` — Creator portfolio demo
-- `/eventdesign` — Event/conference demo
-- `/beautydesign` — Beauty/luxury demo
+## Deployment
 
-Vercel rewrites in `vercel.json` map these clean URLs to the HTML files in `demos/`.
+The included `vercel.json` maps the clean routes above to the HTML files inside `demos/`, so visitors can use:
 
-## ✦ Services
+`https://awebforge.vercel.app/businessdesign`
 
-Business websites • Restaurant websites • School websites • Creator portfolios • Event landing pages • Beauty/luxury websites • Redesigns • Mobile optimization • Vercel deployment • Basic SEO setup
+instead of:
 
-## ✦ Starting Packages
+`https://awebforge.vercel.app/demo/businessdesign`
 
-| Package | Starting price |
-|---|---:|
-| Starter | ₦35,000 |
-| Business | ₦75,000 |
-| Custom | Contact for quote |
+## Contact
 
-Prices are starting points and depend on scope, content and features.
+- WhatsApp: +234 912 342 9926
+- Telegram: @xadonite
+- GitHub: @musteqeem
+- Email: officialxadonai@gmail.com
 
-## ✦ Tech
-
-HTML5 · CSS3 · Vanilla JavaScript · Responsive design · Vercel routing · Google Fonts
-
-No framework or build command is required.
-
-## ✦ Contact
-
-**WhatsApp:** +234 912 342 9926  
-**Telegram:** @xadonite  
-**GitHub:** https://github.com/musteqeem  
-**Email:** officialxadonai@gmail.com
-
-## ✦ Deploy
-
-1. Upload the repository contents to GitHub.
-2. Import the repository into Vercel.
-3. Use the default static deployment settings; no build command is needed.
-4. Deploy.
-5. Test all demo routes.
-
-## ✦ Structure
-
-```text
-WebForge/
-├── index.html
-├── style.css
-├── script.js
-├── vercel.json
-├── README.md
-└── demos/
-    ├── demo.css
-    ├── schooldesign.html
-    ├── restaurantdesign.html
-    ├── businessdesign.html
-    ├── creatordesign.html
-    ├── eventdesign.html
-    └── beautydesign.html
-```
-
-## ֎ Credits
-
-Created by **XADONITE / MUSTEQEEM** · © 2026
+© 2026 XADONITE. All rights reserved.
